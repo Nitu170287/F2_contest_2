@@ -1,0 +1,100 @@
+body {
+    font-family: 'inter', sans-serif;
+    box-sizing: border-box;
+    background-color: black;
+}
+
+.main-container {
+    width: 90%;
+    height: 100%;
+    background-color: black;
+    color: white;
+    padding: 50px;
+    margin: 25px;
+    border: 1px solid blue;
+}
+
+.User {
+    width: 400px;
+    height: 40px;
+    border: 1px solid #FFFFFF;
+    border-radius: 10px;
+    margin: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 10px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+
+
+
+.newUser {
+    display: flex;
+    justify-content: space-between;
+}
+
+input {
+    width: 415px;
+    height: 40px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+}
+
+label {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+p {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    margin-bottom: 40px;
+
+}
+
+.adduserdiv {
+    margin-top: 90px;
+}
+
+
+select {
+
+    width: 172px;
+    height: 28px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    background-color: #000000;
+    color: #FFFFFF;
+
+}
+
+option {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+}
+
+button {
+    width: 226px;
+    height: 58px;
+
+    margin-top: 20px;
+    background: #FFFFFF;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #000000;
+}
